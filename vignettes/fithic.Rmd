@@ -41,8 +41,9 @@ To install this package, start R and enter
 
 ```
 ## try http:// if https:// URLs are not supported
-source("https://bioconductor.org/biocLite.R")
-biocLite("FitHiC")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("FitHiC")
 ```
 
 ## Example I: Yeast (S. cerevisiae) Hi-C data at single restriction enzyme (RE) resolution without bias values
