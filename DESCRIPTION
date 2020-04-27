@@ -1,7 +1,7 @@
 Package: FitHiC
 Type: Package
 Title: Confidence estimation for intra-chromosomal contact maps
-Version: 1.13.0
+Version: 1.14.0
 Date: 2017-04-12
 Authors@R: c(person("Ferhat", "Ay", role = "aut", comment =
         "Python original, https://noble.gs.washington.edu/proj/fit-hi-c/"),
